@@ -25,6 +25,11 @@
       <artifactId>httpclient</artifactId>
       <version>4.5.14</version>
     </dependency>
+    <dependency>
+      <groupId>org.thymeleaf</groupId>
+      <artifactId>thymeleaf</artifactId>
+      <version>3.1.1.RELEASE</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>java-module11-tomcat</finalName>
@@ -32,6 +37,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
         <configuration>
           <source>8</source>
           <target>8</target>
